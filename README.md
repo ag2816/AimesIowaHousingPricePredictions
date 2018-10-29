@@ -1,5 +1,5 @@
 # AimesIowaHousingPricePredictions
-Linear Regression to predict house sale prices in Aimes Iowa
+Linear Regression to predict house sale prices in Ames Iowa
 
 <h2>The Data</h2>
 This is a very detailed dataset containing 79 features describing sold houses in great detail.  My goal was to develop a model for predicting house prices
