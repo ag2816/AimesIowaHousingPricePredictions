@@ -1,5 +1,5 @@
 # AimesIowaHousingPricePredictions
-Linear Regression to predict house sale prices in Ames Iowa
+Linear Regression to predict house sale prices in Ames Iowa.  This is for the Kaggle competition: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
 <h2>The Data</h2>
 This is a very detailed dataset containing 79 features describing sold houses in great detail.  My goal was to develop a model for predicting house prices
@@ -27,7 +27,7 @@ This is a very detailed dataset containing 79 features describing sold houses in
 
 Finally settled on using model that used:
 <ul>
-<li>KBest to pick the top 125 columns</li>
+<li>RFE to pick the top features</li>
 <li>Linear Regression</li>
 <li>reduced basic features</li>
 <li>polynomial features on top 10 numeric columns correlated with sale price</li>
